@@ -5,9 +5,9 @@ A full end-to-end data analysis project using a real-world dataset of the riches
 - <a href="https://github.com/AbdikadirIsse/Billionaires-Data-Analysis-Project/blob/main/Raw%20Uncleaned%20Billionaires%20Dataset.xlsx">Dataset</a>
 
 ## 1. Data Cleaning
-•	Created a backup copy of the raw data before making any changes
-•	Removed 6 duplicate rows using the Remove Duplicates tool
-•	Replaced abbreviated gender values (M → Male, F → Female) using Find & Replace
+- Created a backup copy of the raw data before making any changes
+- Removed 6 duplicate rows using the Remove Duplicates tool
+- Replaced abbreviated gender values (M → Male, F → Female) using Find & Replace
 •	Created a new Age column by combining birth year, month, and day into a full birth date using the DATE function, then calculating age using YEARFRAC
 •	Cleaned the Country GDP column by removing commas and dollar signs that were stored as text, then reformatted the column as a number with thousand separators
 
